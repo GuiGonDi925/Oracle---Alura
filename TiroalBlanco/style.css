@@ -1,0 +1,61 @@
+#div-main{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
+}
+
+.div-puntuacion{
+    width: 300px;
+    height: 600px;
+    padding-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: solid #CCCCCC 2px;
+    display: flex;
+    align-items: center;
+    justify-items: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.div-puntuacion ul{
+    padding: 0px;
+}
+
+.div-puntuacion li{
+    padding: 15px;
+    list-style:none
+}
+
+.div-puntuacion label{
+    padding-left: 5px;
+}
+
+.div-canva{
+    height: 600px;
+    width: 1000px;
+    border: solid #CCCCCC 2px;
+}
+
+#gameover{
+    width: 1000px;
+    height: 600px;
+}
+
+.div-button{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+}
+
+.beginGame{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border: solid #FFFFFF 2px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
