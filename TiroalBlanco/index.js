@@ -114,9 +114,8 @@ function shoot(event){
     /**
      * Utilizando la formula de distancia entre dos puntos en el plano, obtiene la distancia entre el centro y el clic para calcular la puntuación obtenida. Mientras más cerca, más puntos se obtienen
      */
-        {
+    {
         score = score + (((radius + 20) - (Math.round(Math.sqrt( Math.pow((x-randomX),2)+ Math.pow((y-randomY),2) ))))*10)
-        console.log((Math.round(Math.sqrt( Math.pow((x-randomX),2)+ Math.pow((y-randomY),2) )) * 10) );
         lbScore.innerHTML = score;
     }
 }
